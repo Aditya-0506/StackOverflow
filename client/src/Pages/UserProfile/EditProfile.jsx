@@ -6,7 +6,7 @@ const EditProfile = ({ currentUser, setSwitch }) => {
   const [name, setName] = useState(currentUser?.result?.name);
   const [about, setAbout] = useState(currentUser?.result?.about);
   const [tags, setTags] = useState([]);
-  const [profile, setProfile] = useState();
+ 
 
   const dispatch = useDispatch();
 

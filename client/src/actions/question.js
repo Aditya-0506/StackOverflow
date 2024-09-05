@@ -1,4 +1,3 @@
-// import React from "react";
 import * as api from "../api/index";
 
 export const askQuestion = (quesData, navigate) => async (dispatch) => {

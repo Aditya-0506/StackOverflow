@@ -38,9 +38,6 @@ const Nav = () => {
           <Link to="/" className="nav-item nav-logo">
             <img src={logo} alt="logo" width={130} />
           </Link>
-          {/* <Link to="/" className="nav-item nav-btn">
-            About
-          </Link> */}
           <form>
             <input type="text" placeholder="Search..." />
             <img src={search} alt="Search" width="18" className="srch-icn" />
